@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+    margin: 0;
+
+
+}
+
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#sect {
+    position: absolute;
+    height: 800px;
+    color: brown;
+    width: 100%;
+    height: 100%;
+    display: table;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(#eeaeca 0%, #94bbe9 100%);
+    z-index: 9;
+
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    z-index: 10;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.link {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.link:hover {
+    background-color: skyblue;
+}
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+.line {
+    height: 6px;
+    width: 60px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+#about {
+    margin-top: 800px;
+
+}
+
+#insp img {
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.contact1 a {
+    display: inline;
+    left:0;
+}
